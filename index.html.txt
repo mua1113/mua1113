@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>【警告】ウイルスが発見しました</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body class="red darken-3 white-text">
+<div class="container">
+ <h1><img src="icon.png" alt="" style="width:20%; vertical-align:middle; margin-right: 20px;">警告</h1>
+    <h4>あなたの<span id="device"></span>からウイルスが発見されました</h4>
+    <p class="flow-text">このままではスマートフォンが発火もしくは破損する可能性があります。</p>
+    <p class="flow-text"><span id="timer"style="font-size:2em;"></span>秒以内に以下のリンクから対処してください。</p>
+    <a  class="btn btn-large" href="ここにURL">ウイルスを除去する</a>
+    <div id="alert" class="modal">
+       <div class="modal-content black-text">
+       <h4>警告</h4>
+       <p>お使いの端末からウイルスが発見されました。次のページからウイルスを除去してください。</p>
+       </div>
+       <div "modal-footer">
+       <button id="close" class="btn btn-large">OK</button>
+       </div>
+    </div>
+</div>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="myscript.js"></script>
+</body>
+</html>
