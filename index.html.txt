@@ -14,7 +14,7 @@
     <h4>あなたの<span id="device"></span>からウイルスが発見されました</h4>
     <p class="flow-text">このままではスマートフォンが発火もしくは破損する可能性があります。</p>
     <p class="flow-text"><span id="timer"style="font-size:2em;"></span>秒以内に以下のリンクから対処してください。</p>
-    <a  class="btn btn-large" href="ここにURL">ウイルスを除去する</a>
+    <a  class="btn btn-large" href="https://www.google.co.jp/">ウイルスを除去する</a>
     <div id="alert" class="modal">
        <div class="modal-content black-text">
        <h4>警告</h4>
